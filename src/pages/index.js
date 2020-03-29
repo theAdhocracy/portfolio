@@ -1,18 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
+// Components
+import Header from "../Components/Header"
+
 export default () => (
 	<>
-		<header>
-			<h1>Murray Adcock</h1>
-			<nav>
-				<ul>
-					<li>Coding</li>
-					<li>Creative</li>
-					<li>Contact</li>
-				</ul>
-			</nav>
-		</header>
+		<Header />
 		<main>
 			<h2>Hi, I'm Murray 👋</h2>
 			<p>

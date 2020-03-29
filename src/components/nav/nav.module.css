@@ -1,0 +1,15 @@
+.nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	list-style: none;
+}
+
+.nav li {
+	padding: 1rem;
+}
+
+.nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+}

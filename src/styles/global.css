@@ -1,4 +1,14 @@
 html,
 body {
 	font-family: "Calibri", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+body {
+	padding: 1rem;
+}
+
+/* Homepage */
+
+.landing {
 }
