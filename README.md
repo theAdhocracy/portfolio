@@ -14,7 +14,7 @@ I'm a **front-end developer** and **content creator** with a passion for __peopl
 - **Creative Portfolio**: [murrayadcock.uk](https://murrayadcock.uk)
 - **Personal Website**: [theadhocracy](https://theadhocracy.co.uk)
 - **GitHub**: [profile](https://github.com/theAdhocracy) _psst you're here now_
-- **LinkedIn**: [murrayadcock](https://linkedin.com/murrayadcock)
+- **LinkedIn**: [murrayadcock](https://linkedin.com/in/murrayadcock)
 - **Twitter**: [@theAdhocracy](https://twitter.com/theAdhocracy)
 - **Instagram**: [@theAdhocracy](https://instagram.com/theAdhocracy)
 
