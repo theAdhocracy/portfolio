@@ -7,7 +7,7 @@
 }
 
 .header svg {
-	--logomark-colour: rgb(163, 163, 163);
+	--logomark-colour: var(--page-accent);
 	max-width: 5rem;
 	fill: var(--logomark-colour);
 	margin-top: 2rem;

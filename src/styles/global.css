@@ -2,10 +2,15 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--page-accent: #1ca9d4;
+}
+
 html,
 body {
 	font-family: "Calibri", Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	line-height: 1.5rem;
 	margin: 0;
 }
 
@@ -33,6 +38,13 @@ body {
 	align-self: end;
 }
 
+.about-me em {
+	text-decoration: underline;
+	text-decoration-thickness: 0.2em;
+	text-underline-offset: 0.2em;
+	text-decoration-color: var(--page-accent);
+}
+
 a.explore {
 	display: block;
 	margin-top: 3rem;
@@ -45,10 +57,16 @@ a.explore {
 	text-transform: uppercase;
 }
 
-a.explore:hover {
-	text-decoration: underline;
-	text-decoration-thickness: 0.2em;
-	text-underline-offset: 0.4em;
+a.explore:hover::after,
+a.explore:hover::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 0.25rem solid transparent;
+	border-right: 0.25rem solid transparent;
+	border-top: 0.5rem solid var(--page-accent);
+	margin: 0.3rem auto;
 }
 
 @media only screen and (min-width: 500px) {
