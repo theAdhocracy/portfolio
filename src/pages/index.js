@@ -26,7 +26,7 @@ const IndexPage = () => {
 					</section>
 				</div>
 				<Link className="explore" to="#latest-coding">
-					Explore my portfolio
+					My latest projects
 				</Link>
 				<section id="latest-coding" className="highlight">
 					<h2>Coding Highlight</h2>
@@ -42,6 +42,7 @@ const IndexPage = () => {
 						</p>
 						<Link>Learn more</Link>
 					</div>
+					<Link className="explore">Explore more coding projects</Link>
 				</section>
 				<section id="latest-creative" className="highlight">
 					<h2>Creative Highlight</h2>
@@ -57,6 +58,7 @@ const IndexPage = () => {
 						</p>
 						<Link>Learn more</Link>
 					</div>
+					<Link className="explore">Explore more creative projects</Link>
 				</section>
 			</main>
 			<footer></footer>

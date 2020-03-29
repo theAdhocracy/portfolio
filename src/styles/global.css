@@ -47,8 +47,8 @@ body {
 
 a.explore {
 	display: block;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 	padding: 1.5rem 0;
 	width: 100vw;
 	text-align: center;
@@ -58,7 +58,7 @@ a.explore {
 }
 
 a.explore:hover {
-	margin-bottom: 1.9rem;
+	margin-bottom: 0.9rem;
 }
 
 a.explore:hover::after,
@@ -82,6 +82,8 @@ a.explore:hover::after {
 
 .highlight h2 {
 	margin-top: 0;
+	margin-bottom: 0rem;
+	color: grey;
 }
 
 .highlight h3 {
@@ -90,9 +92,12 @@ a.explore:hover::after {
 
 .highlight h3 + p {
 	margin-top: 0;
+	color: var(--page-accent);
+	font-weight: bold;
 }
 
 .details {
+	max-width: 80%;
 	padding: 0 2rem 2rem;
 }
 
@@ -109,7 +114,7 @@ a.explore:hover::after {
 }
 
 .highlight:nth-of-type(2) h2 {
-	transform: rotate(338deg) translate(120px, 68px);
+	transform: rotate(339deg) translate(120px, 62px);
 }
 
 .highlight:nth-of-type(2) .details {
@@ -138,6 +143,12 @@ a.explore:hover::after {
 
 	a.explore {
 		width: 100%;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+
+	a.explore:hover {
+		margin-bottom: 1.9rem;
 	}
 }
 
