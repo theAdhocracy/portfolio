@@ -1,12 +1,30 @@
 .header {
 	display: grid;
-	grid-template-columns: 1fr auto;
+	grid-template-columns: 1fr;
 	align-items: center;
-	border-bottom: 2px solid lightgrey;
+	justify-items: center;
+	margin: 1rem 1rem 0;
 }
 
-.header h1 {
-	margin: 0;
-	word-wrap: none;
-	white-space: nowrap;
+.header svg {
+	--logomark-colour: rgb(163, 163, 163);
+	max-width: 5rem;
+	fill: var(--logomark-colour);
+	margin-top: 2rem;
+}
+
+@media only screen and (min-width: 700px) {
+	.header {
+		grid-template-columns: 1fr auto;
+		width: 80%;
+		max-width: 50rem;
+		margin: 1rem auto;
+		justify-items: left;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.header {
+		padding-left: 5rem;
+	}
 }

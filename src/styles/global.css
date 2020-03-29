@@ -1,14 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
 html,
 body {
 	font-family: "Calibri", Helvetica, Arial, sans-serif;
 	font-size: 16px;
-}
-
-body {
-	padding: 1rem;
+	margin: 0;
 }
 
 /* Homepage */
 
 .landing {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 15rem 15rem auto;
+	overflow: hidden;
+}
+
+.landing > img {
+	grid-row: 1/2;
+	max-width: 100%;
+	object-fit: contain;
+	justify-self: right;
+	clip-path: polygon(100% 0%, 0% 35%, 0% 35%, 100% 100%);
+}
+
+.about-me {
+	grid-row: 2;
+	max-width: 20rem;
+	margin-left: 1rem;
+	align-self: end;
+}
+
+a.explore {
+	display: block;
+	margin-top: 3rem;
+	padding: 1.5rem 0;
+	width: 100vw;
+	grid-column: 1/-1;
+	text-align: center;
+	color: grey;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.explore:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 0.2em;
+	text-underline-offset: 0.4em;
+}
+
+@media only screen and (min-width: 500px) {
+	.landing {
+		grid-template-columns: minmax(200px, 1fr) 1fr;
+		grid-template-rows: auto;
+		column-gap: 2rem;
+		max-width: 60rem;
+		margin: 0 auto;
+	}
+
+	.landing > img {
+		grid-column: 2;
+		max-height: 500px;
+	}
+
+	.about-me {
+		grid-row: 1;
+		justify-self: end;
+		margin-left: 2rem;
+	}
+
+	a.explore {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 700px) {
 }
