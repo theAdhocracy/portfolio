@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 // Components
-import Header from "../Components/Header"
+import Header from "../components/header"
 
 // Assets
 import profilePhoto from "../assets/murray-profile-square.jpg"

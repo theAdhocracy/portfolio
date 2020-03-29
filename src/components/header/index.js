@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import styles from "./header.module.css"
 
@@ -9,7 +9,15 @@ import Nav from "../nav"
 
 const Header = ({ accentColour }) => {
 	// Set page accent colour on :root
-	document.documentElement.style.setProperty("--page-accent", accentColour)
+	useEffect(() => {
+		if (typeof window !== "undefined" && window.document) {
+			document.documentElement.style.setProperty(
+				"--page-accent",
+				accentColour
+			)
+		}
+	})
+
 	return (
 		<header className={styles.header}>
 			<Link to="/">
