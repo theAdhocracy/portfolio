@@ -22,10 +22,11 @@ I'm a **front-end developer** and **content creator** with a passion for __peopl
 
 🟢 Actively looking for my next adventure, whether that is as a writer, front-end developer, content creator, or any combination of them all. Sound interesting? [Get in touch!](https://murrayadcock.uk/contact)
 
-## 💫 Deploy
+## 🛠 Built with:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+- [**Gatsby**](https://www.gatsbyjs.org)
+- [**Craft CMS**](https://craftcms.com/)
+- [**Netlify**](https://www.netlify.com/)
+- ❤
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/23f72d36-7bee-4c39-9113-97acd835ed13/deploy-status)](https://app.netlify.com/sites/elated-golick-3358e3/deploys)
