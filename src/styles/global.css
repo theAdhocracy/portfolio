@@ -75,6 +75,11 @@ a.explore:hover::after {
 
 /* Homepage - Highlights */
 
+.highlight {
+	margin: 0 auto;
+	max-width: 65rem;
+}
+
 .highlight img {
 	max-height: 500px;
 	max-width: 100%;
@@ -84,6 +89,7 @@ a.explore:hover::after {
 	margin-top: 0;
 	margin-bottom: 0rem;
 	color: grey;
+	width: 200px;
 }
 
 .highlight h3 {
@@ -97,8 +103,11 @@ a.explore:hover::after {
 }
 
 .details {
-	max-width: 80%;
+	clear: both;
+	width: 80%;
+	max-width: 30rem;
 	padding: 0 2rem 2rem;
+	margin: 0 auto;
 }
 
 .highlight:first-of-type img {
@@ -106,19 +115,18 @@ a.explore:hover::after {
 }
 
 .highlight:first-of-type h2 {
-	transform: rotate(38deg) translate(90px, 110px);
+	transform: rotate(38deg) translate(60px, 40px);
 }
 
 .highlight:nth-of-type(2) img {
+	clear: both;
+	float: right;
 	clip-path: polygon(100% 0%, 10% 35%, 10% 35%, 100% 100%);
 }
 
 .highlight:nth-of-type(2) h2 {
-	transform: rotate(339deg) translate(120px, 62px);
-}
-
-.highlight:nth-of-type(2) .details {
-	margin-top: -4rem;
+	transform: rotate(339deg) translate(-50px, 20px);
+	float: right;
 }
 
 @media only screen and (min-width: 500px) {
@@ -149,6 +157,10 @@ a.explore:hover::after {
 
 	a.explore:hover {
 		margin-bottom: 1.9rem;
+	}
+
+	.highlight:nth-of-type(2) .details {
+		transform: translateY(-4rem);
 	}
 }
 
