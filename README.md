@@ -11,7 +11,7 @@ I'm a **front-end developer** and **content creator** with a passion for **peopl
 
 ## 👋 Get to know me
 
--  **Creative Portfolio**: [murrayadcock.uk](https://murrayadcock.uk)
+-  **Creative Portfolio**: [murrayadcock.uk](https://murrayadcock.uk) _Still very WIP_
 -  **Personal Website**: [theadhocracy](https://theadhocracy.co.uk)
 -  **GitHub**: [profile](https://github.com/theAdhocracy) _psst you're here now_
 -  **LinkedIn**: [murrayadcock](https://linkedin.com/in/murrayadcock)
@@ -20,7 +20,7 @@ I'm a **front-end developer** and **content creator** with a passion for **peopl
 
 ## 🚦 Current status?
 
-🟢 Actively looking for my next adventure, whether that is as a writer, front-end developer, content creator, or any combination of them all. Sound interesting? [Get in touch!](https://murrayadcock.uk/contact)
+🔴 Happy with my current situation and not looking for a change of scenery.
 
 ## 🛠 Built with:
 
